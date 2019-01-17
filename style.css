@@ -43,23 +43,35 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* Reset End */
+/* #################################### End of reset ###################################################*/
+html, body{
+	
+}
 section{
-width:100%;
-max-width:100%;
+
 }
 .container{
-max-width:94%;
-margin:0 auto;
-padding:3%;
+	background: #ccc;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	box-sizing: border-box;
+  padding: 50px;
+}
+.container p{
+	font-size: 21px;
+    line-height: 1.5;
 }
 .site__title {
     color: #f35626;
-    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+		background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+		animation: hue 60s infinite linear;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-animation: hue 60s infinite linear;
-}
-.content{
-
+		-webkit-animation: hue 60s infinite linear;
+		font-size: 48px;
+    margin: 0 0 20px 0;
 }
