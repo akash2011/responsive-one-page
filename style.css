@@ -45,13 +45,21 @@ table {
 }
 /* #################################### End of reset ###################################################*/
 html, body{
-	
+	font-family: 'Thasadith', sans-serif;
+	background: #ccc;
+	background-image: url(images/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.fa{
+	font-size: 24px;
+	color: #ea4d1a;
 }
 section{
 
 }
 .container{
-	background: #ccc;
+	background:rgba(222, 140, 140, 0.8);
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -61,17 +69,111 @@ section{
 	box-sizing: border-box;
   padding: 50px;
 }
-.container p{
-	font-size: 21px;
-    line-height: 1.5;
+.text{
+	font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
 }
 .site__title {
-    color: #f35626;
-		background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
-		animation: hue 60s infinite linear;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #ea4d1a;	
+		animation: hue 60s infinite linear;  
 		-webkit-animation: hue 60s infinite linear;
-		font-size: 48px;
-    margin: 0 0 20px 0;
+		font-size: 56px;
+		margin: 0 0 20px 0;
+		text-align:center;
 }
+.social-icons{
+	text-align: center;
+	padding-top: 20px;
+}
+.social-icons ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 10px;
+}
+/*  ################################## Media queries for responsive design layout #####################################*/
+
+
+/* Iphone 4,5 portrait */
+
+@media(max-width:320px){
+	
+}
+
+/* Iphone 6 portrait */
+
+@media(max-width:375px){}
+
+/* Iphone 6 plus portrait*/
+
+@media(max-width:414px){
+	.site__title{
+		font-size:21px;
+	}
+	.text{
+		font-size: 12px;
+	}
+}
+
+/* Iphone 4 landscape */
+
+@media(max-width:480px){}
+
+/* Iphone 5 landscape */
+
+@media(max-width:568px){}
+
+/* Google nexus-7 portrait*/
+
+@media(max-width:600px){}
+
+/* Galaxy s3,s4 landscape*/
+
+@media(max-width:640px){}
+
+/* Ipad portrait */
+
+@media(max-width:768px){
+	
+}
+
+/* Google Nexus-7 landscape */
+
+@media(max-width:960px){
+	.site__title{
+		font-size:31px;
+	}
+	.text{
+		font-size: 14px;
+	}
+}
+
+/* Ipad landscape, small desktop */
+
+@media(max-width:1024px){}
+
+/* Laptop with MDPI Screen landscape */
+
+@media(max-width:1280px){}
+
+/* Mac book Pro, Laptop with HiDI screen landscape */
+
+@media(max-width:1440px){}
+
+/* MacBook Pro(High Resulation),Desktop Large screen */
+
+@media(max-width:1680px){}
+
+/* Desktop Large screen */
+
+@media(max-width:1824px){}
+
+/* 21-Inch iMac, Desktop Large screen */
+
+@media(max-width:1920px){}
+
+/* 27-Inch iMac*/
+
+@media(max-width:2560px){}
+
+
